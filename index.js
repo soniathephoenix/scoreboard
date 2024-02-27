@@ -1,34 +1,37 @@
 let countElh = document.getElementById("count-elh")
 let countElg = document.getElementById("count-elg")
-let count = 0
+
+let countH = 0
+
+let countG = 0
+
 
 function add1h() {
-    count += 1
-    countElh.textContent = count
+    countH += 1
+    countElh.textContent = countH
 }
 
 function add2h() {
-    count += 2
-    countElh.textContent = count
+    countH += 2
+    countElh.textContent = countH
 }
 
 function add3h() {
-    count += 3
-    countElh.textContent = count
+    countH += 3
+    countElh.textContent = countH
 }
 
-
 function add1g() {
-    count += 1
-    countElg.textContent = count
+    countG += 1
+    countElg.textContent = countG
 }
 
 function add2g() {
-    count += 2
-    countElg.textContent = count
+    countG += 2
+    countElg.textContent = countG
 }
 
 function add3g() {
-    count += 3
-    countElg.textContent = count
+    countG += 3
+    countElg.textContent = countG
 }
