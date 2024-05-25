@@ -1,0 +1,1 @@
+https://yourscoreboard.netlify.app/
